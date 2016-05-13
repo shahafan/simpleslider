@@ -1,0 +1,36 @@
+html,body{
+	margin: 0;
+}
+div.simpleSlider {
+	position:relative;
+	width:100%;
+	height:auto;
+}
+
+.simpleSlider img {
+	display: none;
+	position: absolute; 
+	top: 0; 
+	left: 0;
+	width:100%;
+	height:auto;
+}
+.simpleSlider .arrows{
+    position: absolute;
+    z-index:1;
+    width: 100%;
+}
+.simpleSlider .arrows a{
+    padding:15px;
+    background-color:#757575;
+    color:#ffffff;
+    font-weight:700;
+    font-size:1rem;
+    cursor:pointer;
+}
+.simpleSlider .arrows a.next{
+	float:right;
+}
+.simpleSlider .arrows a.previous{
+	float:left;
+}
